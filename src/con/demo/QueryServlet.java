@@ -16,6 +16,7 @@ import java.util.ArrayList;
 public class QueryServlet extends HttpServlet {
 
     Connection conn=null;
+
     public void init(){
         String driver="com.mysql.jdbc.Driver";
         String url="jdbc:mysql://127.0.0.1:3306/test_ding";
